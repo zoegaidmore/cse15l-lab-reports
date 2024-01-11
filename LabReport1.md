@@ -4,6 +4,8 @@
 
 1. An example of using the command with no arguments.
 ![Image](cd1.png)
+Before this command was run, the working directory was /home.
+Because no arguments were given and we called `cd`, we did not change the directory. Having no arguments meant that we didn't give the name of a file to change the directory to, so nothing was output and the directory didn't change (this is visible on the line below where the `cd` command was called, where we can see that nothing after the ~ has changed. 
 
 3. An example of using the command with a path to a directory as an argument.
 

@@ -8,7 +8,7 @@
 ![Image](cd1.png)
 Before this command was run, the working directory was `/home`. This didn't change after the command was run.
 
-Because no arguments were given and we called `cd`, we did not change the directory. Having no arguments meant that we didn't give the name of a file to change the directory to, so nothing was output and the directory didn't change (this is visible on the line below where the `cd` command was called, where we can see that nothing after the ~ has changed. 
+Because no arguments were given and we called `cd`, we did not change the directory. Having no arguments meant that we didn't give the name of a file to change the directory to, so nothing was output and the directory didn't change (this is visible on the line below where the `cd` command was called, where we can see that nothing after the ~ has changed). 
 
 While this command doesn't work the way it should without an argument, it doesn't produce an error.
 

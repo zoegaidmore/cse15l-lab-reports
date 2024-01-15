@@ -15,8 +15,10 @@ Before this command was run, the working directory was `/home`. After the comman
 Nothing was given as an output, however we can see that our command changed the directory because in the line underneath the command, we can see that the ~ is followed by `/lecture1`, indicating that the directory has been changed to `/home/lecture1`.
 
 3. An example of using the command with a path to a file as an argument.
+![Image](cd3.png)
+Before the `cd en-us.txt/` command was run, the directory was `/home/lecture1/messages`. The command did not change the working directory.
 
-Before the `cd en-us.txt/` command was run, the directory was `/home/lecture1/messages`. The command did not change the working directory
+The output after this command was `bash: cd: en-us.txt/: Not a directory`. We recieved this output becasue you can not change the directory to a file, you can only change the directory to a directory. This is why this command didn't change the directory.
 
 **For `ls` command:**
 

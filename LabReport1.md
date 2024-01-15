@@ -45,8 +45,19 @@ The output after this command was `lecture1/messages/en-us.txt`. This is because
 **For `cat` command:**
 
 1. An example of using the command with no arguments.
+![Image](cat1.png)
+Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
+
+This command had no output. It also did not allow for the user to input anything after the command was run. This means that an error occurred, because the `cat` command cannot be run without any arguments. 
 
 2. An example of using the command with a path to a directory as an argument.
+![Image](cat2.png)
+Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
+
+The output of this command was: `cat: lecture1/: Is a directory`. This means that the `cat` command cannot be run with a directory as an argument, it needs a file. So, when it is run with a directory as the argument, it doesn't output what it should (the contents of the argument). 
 
 3. An example of using the command with a path to a file as an argument.
+![Image](cat3.png)
+Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
 
+The outout of this command was: `Hello World!`. This was the output because the `cat` command outputs what is inside the file given as an arument. In this case, the `en-us.txt` text file contains the words `Hello World!`. 

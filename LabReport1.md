@@ -20,13 +20,26 @@ Before the `cd en-us.txt/` command was run, the directory was `/home/lecture1/me
 
 The output after this command was `bash: cd: en-us.txt/: Not a directory`. We recieved this output becasue you can not change the directory to a file, you can only change the directory to a directory. This is why this command didn't change the directory.
 
+
 **For `ls` command:**
 
 1. An example of using the command with no arguments.
+![Image](ls1.png)
+Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
+
+The output after this command was `lecture1`. This was output because the `ls` command outputs what is included in the specified directory. In this case, there was no argument, so the `ls` command was called on the `/home` file. It output the file which was inside this file: `lecture1`.
 
 2. An example of using the command with a path to a directory as an argument.
+![Image](ls2.png)
+Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
+
+The output after this command was `Hello.class  Hello.java  messages  README`. This was output because the `ls` command was called on the `lecture1/`. So, it output all of the files, folders and pages inside of it, which are `Hello.class`, `Hello.java`, `messages`, and `README`.
 
 3. An example of using the command with a path to a file as an argument.
+![Image](ls3.png)
+Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
+
+The output after this command was `lecture1/messages/en-us.txt`. This is because the `ls` command was called on a specific file itself, rather than a folder that has contents. So, the command prints the file itself that was given as input. 
 
 
 **For `cat` command:**

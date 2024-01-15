@@ -1,8 +1,10 @@
 # Lab Report 1: Remote Access and FileSystem
 
+---
+
 **For `cd` command:**
 
-An example of using the command with no arguments:
+**An example of using the command with no arguments:**
 ![Image](cd1.png)
 Before this command was run, the working directory was `/home`. This didn't change after the command was run.
 
@@ -11,7 +13,7 @@ Because no arguments were given and we called `cd`, we did not change the direct
 While this command doesn't work the way it should without an argument, it doesn't produce an error.
 
 
-An example of using the command with a path to a directory as an argument:
+**An example of using the command with a path to a directory as an argument:**
 ![Image](cd2...png)
 Before this command was run, the working directory was `/home`. After the command was run, the working directory was `/home/lecture1`.
 
@@ -20,7 +22,7 @@ Nothing was given as an output, however we can see that our command changed the 
 This command works as it should and does not produce an error.
 
 
-An example of using the command with a path to a file as an argument:
+**An example of using the command with a path to a file as an argument:**
 ![Image](cd3.png)
 Before the `cd en-us.txt/` command was run, the directory was `/home/lecture1/messages`. The command did not change the working directory.
 
@@ -28,11 +30,11 @@ The output after this command was `bash: cd: en-us.txt/: Not a directory`. We re
 
 This command works as it should and does not produce an error.
 
-
+---
 
 **For `ls` command:**
 
-An example of using the command with no arguments:
+**An example of using the command with no arguments:**
 ![Image](ls1.png)
 Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
 
@@ -41,7 +43,7 @@ The output after this command was `lecture1`. This was output because the `ls` c
 This command works as it should and does not produce an error.
 
 
-An example of using the command with a path to a directory as an argument:
+**An example of using the command with a path to a directory as an argument:**
 ![Image](ls2.png)
 Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
 
@@ -50,7 +52,7 @@ The output after this command was `Hello.class  Hello.java  messages  README`. T
 This command works as it should and does not produce an error.
 
 
-An example of using the command with a path to a file as an argument:
+**An example of using the command with a path to a file as an argument:**
 ![Image](ls3.png)
 Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
 
@@ -58,10 +60,11 @@ The output after this command was `lecture1/messages/en-us.txt`. This is because
 
 This command works as it should and does not produce an error.
 
+---
 
 **For `cat` command:**
 
-An example of using the command with no arguments:
+**An example of using the command with no arguments:**
 ![Image](cat1.png)
 Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
 
@@ -70,7 +73,7 @@ This command had no output. It also did not allow for the user to input anything
 This means that an error occurred, because the `cat` command cannot be run without any arguments. 
 
 
-An example of using the command with a path to a directory as an argument:
+**An example of using the command with a path to a directory as an argument:**
 ![Image](cat2.png)
 Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
 
@@ -79,7 +82,7 @@ The output of this command was: `cat: lecture1/: Is a directory`. This means tha
 This command doesn't work as it should, however it doesn't produce an error. It merely outputs _why_ it doesn't work as it should.
 
 
-An example of using the command with a path to a file as an argument:
+**An example of using the command with a path to a file as an argument:**
 ![Image](cat3.png)
 Before this command was run, the working directory was `/home`. After it was run, the working directory was the same (this command does not change the working directory).
 

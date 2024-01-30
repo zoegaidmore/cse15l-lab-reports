@@ -45,3 +45,6 @@ The `out` parameter, at the end of this method, is set to `Zoe: Hello!\nNora: Hi
 
 
 ### Part 2:
+
+### Part 3:
+I learned a lot of new things in our lab in Weeks 2 and 3, but one thing that stands out, even if it seems like a smaller thing in comparison to *everything* we've learned in the past two weeks, is how using the `man` command in the terminal can allow us to read about  any terminal command. This stands out to me because it is something that is so useful, and I can use to better understand many new terminal commands that we will learn, or even ones we won't cover in class, and it shows us the user manual for these commands. 

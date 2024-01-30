@@ -15,15 +15,7 @@ class Handler implements URLHandler {
           if(parameter1[0].equals("s") && parameter2[0].equals("user")) {
             return String.format("%1$s: %2$s", parameter1[1], parameter2[1]);
           }
-          else {
-            return "404 Not Found!";
-          }
-      }
-      else {
-        return "404 Not Found!";
       }
     }
-    else {
-      return "404 Not Found!";
-    }
+    return "404 Not Found!";
 }

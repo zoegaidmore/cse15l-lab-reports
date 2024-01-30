@@ -3,5 +3,5 @@
 ### Part 1:
 
 **Code for `ChatServer`:**
-![Image](ChatServer.java Screenshot.png)
-![Image](Server.java Screenshot.png)
+![Image](ChatServerjavaScreenshot.png)
+![Image](ServerjavaScreenshot.png)

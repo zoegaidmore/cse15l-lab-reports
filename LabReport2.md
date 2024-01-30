@@ -25,6 +25,8 @@ The `String[] parameter2` field is set to `{user, Zoe}` by splitting the second 
 The `out` parameter, at the end of this method, is set to `Zoe: Hello!` and then is returned.
 (Before any of these fields are set, the url Path is checked to ensure that it has the right contents to successfully create these arrays).
 
+
+
 ![Image](NoraMessage.png)
 
 **Which methods in the code are called?**

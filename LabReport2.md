@@ -9,7 +9,7 @@
 
 **Screenshots of using /message in the URL**
 
-![Image](Message1.png)
+![Image](ZoeMessage.png)
 
 **Which methods in the code are called?**
 The methods `public String handleRequest(URI url)` and `public static void main(String[] args) throws IOException` are both called.
@@ -24,7 +24,7 @@ The `String[] parameter1` field is set to `{s, Hello!}` by splitting the first e
 The `String[] parameter2` field is set to `{user, Zoe}` by splitting the second element in the `parameters` array.
 (Before any of these fields are set, the url Path is checked to ensure that it has the right contents to successfully create these arrays).
 
-![Image](Message2.png)
+![Image](NoraMessage.png)
 
 **Which methods in the code are called?**
 

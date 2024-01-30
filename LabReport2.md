@@ -3,5 +3,9 @@
 ### Part 1:
 
 **Code for `ChatServer`:**
-![Image](ChatServerjavaScreenshot.png)
 ![Image](ServerjavaScreenshot.png)
+![Image](ChatServerjavaScreenshot.png)
+
+**Screenshots of using /message in the URL**
+![Image](Message1.png)
+![Image](Message2.png)

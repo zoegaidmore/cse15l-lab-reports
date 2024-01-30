@@ -5,7 +5,7 @@
 **Code for `ChatServer`:**
 
 ![Image](ServerjavaScreenshot.png)
-![Image](ChatServerjavaScreenshot.png)
+![Image](ChatServerSS.png)
 
 **Screenshots of using /message in the URL**
 

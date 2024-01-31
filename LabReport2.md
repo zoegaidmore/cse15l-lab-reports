@@ -45,6 +45,12 @@ The `out` parameter, at the end of this method, is set to `Zoe: Hello!\nNora: Hi
 
 
 ### Part 2:
+The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
+
+The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
+
+A terminal interaction where you log into your ieng6 account without being asked for a password.
+
 
 ### Part 3:
 I learned a lot of new things in our lab in Weeks 2 and 3, but one thing that stands out, even if it seems like a smaller thing in comparison to *everything* we've learned in the past two weeks, is how using the `man` command in the terminal can allow us to read about  any terminal command. This stands out to me because it is something that is so useful, and I can use to better understand many new terminal commands that we will learn, or even ones we won't cover in class, and it shows us the user manual for these commands. 

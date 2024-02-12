@@ -17,12 +17,12 @@ public void testReversed1() {
 **An input that doesn't induce a failure, as a JUnit test and any associated code:**
 ```
 @Test
-public void testReversed1() {
-	int[] input1 = new int[]{1, 2, 3, 4, 5};
-	assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input1));
+public void testReversed() {
+	int[] input1 = { };
+	assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 }
 ```
-This is the JUnit test code that was given in the original file, and it does not induce a failure. The array `{3}` is correctly reversed according to this test.
+This is the JUnit test code that was given in the original file, and it does not induce a failure. The empty array `{0}` is correctly reversed according to this test.
 
 **The symptom, as the output of running the tests:**
 ![](FailureOutput.png)

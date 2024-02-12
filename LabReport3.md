@@ -18,9 +18,9 @@ public void testReversed1() {
 ```
 @Test 
 public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
+	int[] input1 = { 3 };
+	ArrayExamples.reverseInPlace(input1);
+	assertArrayEquals(new int[]{ 3 }, input1);
 }
 ```
 This is the JUnit test code that was given in the original file, and it does not induce a failure. The array `{3}` is correctly reversed according to this test.

@@ -52,7 +52,7 @@ static int[] reversed(int[] arr) {
 }
 ```
 
-This change in code fixed the bug because the original code created a new empty array called `newArray`, then, in reverse order, added the elements of `newArray` to the original array `arr`. So, the elemtns of the empty array (all 0's) were added to the array `arr`, which was then returned. So, the returned array would be all 0's.
+This change in code fixed the bug because the original code created a new empty array called `newArray`, then, in reverse order, added the elements of `newArray` to the original array `arr`. So, the elements of the empty array (all 0's) were added to the array `arr`, which was then returned. The returned array would always be all 0's.
 The new code, however, added the elements of `arr` to the empty array `newArray` in reverse order. `newArray` is then returned, which is an array containing the elemtns of `arr` in reverse order. 
 
 ### Part 2:

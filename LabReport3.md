@@ -44,7 +44,7 @@ static int[] reversed(int[] arr) {
 After fixing the bug:
 ```
 static int[] reversed(int[] arr) {
-	int[] newArray = new int[arr.length]; //new arr = [0, 0, 0, 0, 0]
+	int[] newArray = new int[arr.length]; 
 	for(int i = 0; i < arr.length; i += 1) {
 		newArray[i] = arr[arr.length - i - 1];
     	}
@@ -56,3 +56,10 @@ This change in code fixed the bug because the original code created a new empty 
 The new code, however, added the elements of `arr` to the empty array `newArray` in reverse order. `newArray` is then returned, which is an array containing the elemtns of `arr` in reverse order. 
 
 ### Part 2:
+
+**4 interesting command-line options or alternate ways to use the the `grep` command:**
+
+For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
+
+
+**Sources:**

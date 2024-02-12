@@ -25,7 +25,7 @@ public void testReversed1() {
 This is the JUnit test code that was given in the original file, and it does not induce a failure. The array `{3}` is correctly reversed according to this test.
 
 **The symptom, as the output of running the tests:**
-![](Symptom.png)
+![](FailureOutput.png)
 
 
 **The bug, as the before-and-after code change required to fix it:**

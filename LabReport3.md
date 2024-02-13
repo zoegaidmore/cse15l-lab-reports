@@ -126,4 +126,16 @@ Zoes-MacBook-Air:technical zoegaidmore$ grep -m 5 "a" 911report/chapter-13.1.txt
 
 4. `-w`:
 
+```
+Zoes-MacBook-Air:technical zoegaidmore$ grep -w "town" government/Media/5_Legal_Groups.txt 
+town trying to find the right agency.
+```
+This shows `-w` in use because this file contains the word "downtown" as well as "town". So, a normal call to `grep` would return other lines besides the one output when using `-w`. This is the same file being searched using `grep` without `-w`:
+```
+Zoes-MacBook-Air:technical zoegaidmore$ grep "town" government/Media/5_Legal_Groups.txt 
+disabilities have joined together to acquire a west-side downtown
+parking, something that's hard to find downtown and which has been
+town trying to find the right agency.
+```
+
 **Sources:**

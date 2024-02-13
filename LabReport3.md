@@ -55,6 +55,7 @@ static int[] reversed(int[] arr) {
 This change in code fixed the bug because the original code created a new empty array called `newArray`, then, in reverse order, added the elements of `newArray` to the original array `arr`. So, the elements of the empty array (all 0's) were added to the array `arr`, which was then returned. The returned array would always be all 0's.
 The new code, however, added the elements of `arr` to the empty array `newArray` in reverse order. `newArray` is then returned, which is an array containing the elemtns of `arr` in reverse order. 
 
+
 ### Part 2:
 
 **4 interesting command-line options or alternate ways to use the the `grep` command:**
@@ -102,8 +103,27 @@ This command line argument indicates to ignore the case of the String to search 
 	Inland valleys.
   	```
 
-4. `-m`:
+3. `-m`:
 
-5. `-w`:
+This command line argument takes in a specific number of lines that indicates the maximum number of matches that the `grep` command will search for. So, if a file contains more than the specified amount of a specific String, it will only print out the specified maximum nubmer of lines containing this String. This is helpful because it stops us from having a ton of lines of code output that take up the entire terminal.
+
+	```
+ 	Zoes-MacBook-Air:technical zoegaidmore$ grep -m 3 "this" biomed/1471-213X-3-2.txt
+        	when over-expressed in Xenopus embryos. Wnts in this
+        	Wnts in this class have been shown to signal in a
+        	signaling in this list include fibronectin [ 17 ] , IL-6 [
+ 	```
+Above, in the `-c` examples, we saw that `biomed/1471-213X-3-2.txt` contained four counts of the word "this". However, here only three lines are printed because the `-m` command line argument took in 3, indicating 3 as the maximum number of lines to be printed. 
+
+	```
+ 	Zoes-MacBook-Air:technical zoegaidmore$ grep -m 5 "a" 911report/chapter-13.1.txt
+            As presently configured, the national security institutions of the U.S. government
+                are still the institutions constructed to win the Cold War. The United States
+                confronts a very different world today. Instead of facing a few very dangerous
+                adversaries, the United States confronts a number of less visible challenges that
+                surpass the boundaries of traditional nation-states and call for quick, imaginative,
+ 	```
+
+4. `-w`:
 
 **Sources:**

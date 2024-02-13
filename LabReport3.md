@@ -168,7 +168,7 @@ town trying to find the right agency.
 
 **Example 2:**
 ```
-oes-MacBook-Air:technical zoegaidmore$ grep -w "law" government/Media/Annual_Fee.txt 
+Zoes-MacBook-Air:technical zoegaidmore$ grep -w "law" government/Media/Annual_Fee.txt 
 legal services to the poor to provide equal justice under the law,
 expand its outreach in law schools, according to Murphy. She added
 ```

@@ -149,7 +149,7 @@ Zoes-MacBook-Air:technical zoegaidmore$ grep -m 5 "a" 911report/chapter-13.1.txt
 
 **4. `-w`:**
 
-This command line argument returns only the lines that have the word given as an argument if that String is presented as a full word. So, a search for the word "the" would not turn up the lines containing "these" or "bathe", only "the" with a space or start/end of a line before and after the word. This is useful becasue it allows you to look for a specific word on its own, which stops you from getting random results you didn't want just because the word you are searching for is inside another word. 
+This command line argument returns only the lines that have the word given as an argument if that String is presented as a full word. So, a search for the word "the" would not turn up the lines containing "these" or "bathe", only "the" with a non-letter character before and after the word. This is useful becasue it allows you to look for a specific word on its own, which stops you from getting random results you didn't want just because the word you are searching for is inside another word. 
 
 
 **Example 1:**

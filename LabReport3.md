@@ -22,7 +22,7 @@ public void testReversed() {
 	assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 }
 ```
-This is the JUnit test code that was given in the original file, and it does not induce a failure. The empty array `{0}` is correctly reversed according to this test.
+This is the JUnit test code that was given in the original file, and it does not induce a failure. The empty array is correctly reversed according to this test.
 
 **The symptom, as the output of running the tests:**
 ![](FailureOutput.png)

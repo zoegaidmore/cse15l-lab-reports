@@ -80,8 +80,30 @@ For each of those options, give 2 examples of using it on files and directories 
 
 2. `-i`:
 
-3. `-m`:
+	This command line argument indicates to ignore the case of the String to search for. It returns the lines that contain the specified 	String, regarless of it's capitalization. So, searching for "CaT" returns the same thing as searching for "cat". This is useful 	because the default mode for the `grep` command is to be case-sensitive, meaning searching for "cat" would not turn up results for 	"CAT" or "Cat".
 
-4. `-w`:
+	```
+ 	Zoes-MacBook-Air:technical zoegaidmore$ grep -i "THIS" biomed/1471-213X-3-2.txt
+        when over-expressed in Xenopus embryos. Wnts in this
+        Wnts in this class have been shown to signal in a
+        transformation of C57mg cells [ 12 ] . This data suggests
+        cellular contexts. This potential role of Wnt-5a as a tumor
+        signaling in this list include fibronectin [ 17 ] , IL-6 [
+        This fold change was similar to the data obtained from
+        transiently activate the Wnt/Ca 2+signaling pathway. This
+        derived from Rfz-2. This receptor has previously been shown
+        B). To our knowledge this is the first report to show that
+ 	```
+
+ 	```
+  	Zoes-MacBook-Air:technical zoegaidmore$ grep -i "vAlLeY" government/Media/A_helping_hand.txt 
+	INLAND VALLEY March 9, 2002
+	She is trying to bring legal aid services to the Inland Valley
+	Inland valleys.
+  	```
+
+4. `-m`:
+
+5. `-w`:
 
 **Sources:**

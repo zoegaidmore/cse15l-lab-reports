@@ -172,7 +172,7 @@ Zoes-MacBook-Air:technical zoegaidmore$ grep -w "law" government/Media/Annual_Fe
 legal services to the poor to provide equal justice under the law,
 expand its outreach in law schools, according to Murphy. She added
 ```
-This shows `-w` in use because this file contains the word "lawyer" as well as "law". So, a normal call to `grep` would return other lines besides the one output when using `-w`. 
+This shows `-w` in use because this file contains the word "lawyer" as well as "law". So, a normal call to `grep` would return other lines besides the two output when using `-w`. 
 
 
 

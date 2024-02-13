@@ -62,8 +62,25 @@ The new code, however, added the elements of `arr` to the empty array `newArray`
 For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
 
-1. -c
+1. `-c`
+	This command line argument returns the count of how many times the specific String is found in the specified file. This is useful 	because it can tell you if a certain String is even found in a file, and if so how many times. Paired with the `r` command line 	argument, you can see the name of every file and how many times the specified String is seen in it.
 
-2. -i
+
+	```
+	Zoes-MacBook-Air:technical zoegaidmore$ grep -c "this" biomed/1471-213X-3-2.txt
+	4
+	```
+
+ 
+	```
+	Zoes-MacBook-Air:technical zoegaidmore$ grep -c "base pair" plos/journal.pbio.0020001.txt
+	0
+	```
+
+3. `-i`
+
+4. `-m`
+
+5. `-w`
 
 **Sources:**

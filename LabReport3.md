@@ -64,7 +64,7 @@ For each of those options, give 2 examples of using it on files and directories 
 
 1. `-c`:
 
-	This command line argument returns the count of how many times the specific String is found in the specified file. This is useful 	because it can tell you if a certain String is even found in a file, and if so how many times. Paired with the `-r` command line 	argument, you can see the name of every file and how many times the specified String is seen in it.
+This command line argument returns the count of how many times the specific String is found in the specified file. This is useful 	because it can tell you if a certain String is even found in a file, and if so how many times. Paired with the `-r` command line 	argument, you can see the name of every file and how many times the specified String is seen in it.
 
 
 	```
@@ -80,7 +80,7 @@ For each of those options, give 2 examples of using it on files and directories 
 
 2. `-i`:
 
-	This command line argument indicates to ignore the case of the String to search for. It returns the lines that contain the specified 	String, regarless of it's capitalization. So, searching for "CaT" returns the same thing as searching for "cat". This is useful 	because the default mode for the `grep` command is to be case-sensitive, meaning searching for "cat" would not turn up results for 	"CAT" or "Cat".
+This command line argument indicates to ignore the case of the String to search for. It returns the lines that contain the specified String, regarless of it's capitalization. So, searching for "CaT" returns the same thing as searching for "cat". This is useful because the default mode for the `grep` command is to be case-sensitive, meaning searching for "cat" would not turn up results for "CAT" or "Cat".
 
 	```
  	Zoes-MacBook-Air:technical zoegaidmore$ grep -i "THIS" biomed/1471-213X-3-2.txt

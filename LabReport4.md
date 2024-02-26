@@ -1,7 +1,7 @@
 # Lab Report 4 - Vim
 
 
-## **Step 4:** Log into ieng6
+### Step 4: Log into ieng6
 
 ![](Step4.png)
 

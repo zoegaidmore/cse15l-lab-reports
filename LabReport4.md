@@ -2,6 +2,8 @@
 
 **Step 4:** Log into ieng6
 
+![](Step4.png)
+
 Keys pressed:
 
 `<up><enter>`
@@ -10,6 +12,8 @@ The command to log into my ieng6 account (`ssh zgaidmore@ieng6.ucsd.edu`) was on
 
 **Step 5:** Clone your fork of the repository from your Github account (using the `SSH` URL)
 
+![](Step5.png)
+
 Keys pressed:
 
 `git clone <command v><enter>`
@@ -17,6 +21,8 @@ Keys pressed:
 I typed `git clone` because it is the command to clone a repository. Then, I typed `<command v>` to paste the `SSH` URL, which I had copied from the github repository. This successfully cloned the repository.
 
 **Step 6:** Run the tests, demonstrating that they fail
+
+![](Step6.png)
 
 Keys pressed:
 

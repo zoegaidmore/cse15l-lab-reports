@@ -58,7 +58,7 @@ Keys pressed once in vim:
 
 `jlxi2<esc>:wq`
 
-The `j` key scrolls down. I *held down* on this key until I got to the line I wanted in the file, line 43, which had the error. The 'l' key scrolls to the left. I again *held down* on this key, rather than simply tapping it, until I got to the position of the error (the curser was over the "1" in `index1` which would be changed to a "2"). Then, I used the `x` vim command to delete the "1" that my curser was over. Then, I used the `i` command to enter insert mode, before typing "2", which inserted a "2" where the "1" previously was. I used the `<esc>` key to exit insert mode and enter normal mode again. Then, I typed `:wq`, which allowed me to save my changes and then exit vim.
+The `j` key scrolls down. I *held down* on this key until I got to the line I wanted in the file, line 43, which had the error. The `l` key scrolls to the left. I again *held down* on this key, rather than simply tapping it, until I got to the position of the error (the curser was over the "1" in `index1` which would be changed to a "2"). Then, I used the `x` vim command to delete the "1" that my curser was over. Then, I used the `i` command to enter insert mode, before typing "2", which inserted a "2" where the "1" previously was. I used the `<esc>` key to exit insert mode and enter normal mode again. Then, I typed `:wq`, which allowed me to save my changes and then exit vim.
 
 
 ### Step 8: Run the tests, demonstrating that they now succeed

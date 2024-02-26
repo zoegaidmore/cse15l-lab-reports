@@ -37,7 +37,7 @@ I typed the command `cd` to change the directory into the repository that I had 
 
 NOTE: I changed the name of my forked repository in github from `lab7` to `Lab7`, because during lab I had git cloned the `lab7` repository, so to demonstrate these steps a second time I had to rename it, as a `lab7` directory was previously made.
 
-I then typed the `<enter>` key, successfully running changing the directory.
+I then typed the `<enter>` key, successfully running the command to change the directory.
 
 Then, I typed `bash test.sh`, before using the `<enter>` key to successfully run the tests, which were in the `test.sh` file. 
 

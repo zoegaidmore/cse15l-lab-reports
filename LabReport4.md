@@ -48,7 +48,7 @@ Then, I typed `bash test.sh`, before using the `<enter>` key to successfully run
 
 Keys pressed:
 
-`vim L<tab>.java <enter>
+`vim L<tab>.java <enter>`
 
 These commands allowed me to enter vim. I used the `vim` command, then typed `L` and used the `<tab>` key to autocomplete to `ListExamples`, the file in `Lab7` that I wanted to access using vim. I added the `.java`, then used the `<enter>` key to run this command and access the file in vim mode.
 

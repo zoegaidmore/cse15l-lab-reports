@@ -30,6 +30,7 @@ I typed `git clone` because it is the command to clone a repository. Then, I typ
 Keys pressed:
 
 `cd L<tab> <enter>`
+
 `bash test.sh <enter>`
 
 I typed the command `cd` to change the directory into the repository that I had just cloned (`Lab7`). I then typed `L` and then the `<tab>` key, which completed the name of the directory I wanted to `cd` into (`Lab7`).
@@ -77,7 +78,9 @@ The `bash test.sh` command was two up in my terminal command history, so I used 
 Keys pressed:
 
 `git add L<tab><enter>`
+
 `git commit -m "Debugged ListExamples.java"<enter>`
+
 `git push<enter>`
 
 The first terminal command I typed was `git add`, then I typed `L` and the `<tab>` key, to complete `ListExamples.java`, because that was the file that was edited. Then, I used the `<enter>` key to run this command and add my changes.

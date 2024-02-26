@@ -68,4 +68,20 @@ Keys pressed:
 
 `<up><up><enter>`
 
-The `bash test.sh` command was two up in my terminal command history, so I used the `<up>` key twice to access it, before using the '<enter>' key to run the command, therefore running the tests. 
+The `bash test.sh` command was two up in my terminal command history, so I used the `<up>` key twice to access it, before using the `<enter>` key to run the command, therefore running the tests. 
+
+**Step 9:** Commit and push the resulting change to your Github account
+
+![](Step9.png)
+
+Keys pressed:
+
+`git add L<tab><enter>`
+`git commit -m "Debugged ListExamples.java"<enter>`
+`git push<enter>`
+
+The first terminal command I typed was `git add`, then I typed `L` and the `<tab>` key, to complete `ListExamples.java`, because that was the file that was edited. Then, I used the `<enter>` key to run this command and add my changes.
+
+Next, I typed `git commit -m "Debugged ListExamples.java`. This command commits my changes, and I added the message "Debugged ListExamples.java" to explain what changes were made. The `<enter>` key ran this command.
+
+Next, I used the `git push` command and the `<enter>` key to run it, thereby pushing the changes I made to the respository on Github.

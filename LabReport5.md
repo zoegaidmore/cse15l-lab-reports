@@ -6,4 +6,4 @@
 
 Hi there, my ListExamples.java code isn't passing my tests, and I'm not sure what's wrong.
 ![](Lab5Symptom.png)
-I've attatched an image of the symptom of the bug. Initially I thought that it was a problem in my iterating over the arrays, because it appears that the last element of the second array wasn't added to the merged array. However, I don't see any issues with my while loop.
+I've attatched an image of the symptom of the bug. The test file tests the merge method with the arrays `["a", "b", "c"]` and `["a", "d"]`. Initially I thought that it was a problem in my iterating over the arrays, because it appears that the last element of the second array wasn't added to the merged array. However, I don't see any issues with my while loop.

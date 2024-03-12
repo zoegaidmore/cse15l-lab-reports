@@ -11,7 +11,7 @@ I've attatched an image of the symptom of the bug. The test file tests the merge
 
 **A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)**
 
-Hello, you should try to write a few extra tests, to see if it is an issue with the iterator or something else. Maybe write a test where  the element that will be the last in the resulting array (the "greatest" element) is in the shorter of the two arrays.
+Hello, you should try to write a few extra tests, to see if it is an issue with the iterator or something else. Maybe write a test where  the element that will be the last in the resulting array (the "greatest" element) is in the first array, rather than the second.
 
 
 **Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**

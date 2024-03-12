@@ -17,7 +17,7 @@ Hello, you should try to write a few extra tests, to see if it is an issue with 
 **Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
 
 I added the recommended test, and my new output was:
-![](Lab5symptom2.png)
+![](Lab5symptom1.png)
 So, it appears that the problem is not with my code that iterates through the second array, but rather the problem lies with adding elements to the array after all of the elements from *one* array are added, leaving only elements from the other. 
 
 

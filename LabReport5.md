@@ -23,7 +23,7 @@ So, it appears that the problem is not with my code that iterates through the se
 
 **The file & directory structure needed**
 
-
+Within the `grader-review-zoegaidmore` directory, there should be the directory `lib/` which contains files `hamcrest-core-1.3.jar` and `junit-4.13.2.jar`. Within `grader-review-zoegaidmore`, there should also be a `student-submission` directory containing the java file that was most recently tested using `bash grade.sh`, which should be titled `ListExamples.java`. Within `grader-review-zoegaidmore`, there should be the following files: `grade.sh`, `GradeServer.java`, `Server.java`, `ta-output.txt`, and `TestListExamples.java`.
 
 **The contents of each file before fixing the bug**
 

@@ -135,5 +135,41 @@ echo "Code did not pass all tests. Score: $successes / $tests"
 fi
 ```
 
+The `TestListExamples.java` file *after* adding the additional test to find the bug:
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.Arrays;
+import java.util.List;
+
+class IsMoon implements StringChecker {
+  public boolean checkString(String s) {
+    return s.equalsIgnoreCase("moon");
+  }
+}
+
+public class TestListExamples {
+  @Test(timeout = 500)
+  public void testMergeRightEnd() {
+    List<String> left = Arrays.asList("a", "b", "c");
+    List<String> right = Arrays.asList("a", "d");
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "a", "b", "c", "d");
+    assertEquals(expected, merged);
+  }
+
+  @Test
+  public void testMergeFirstArrayShorter() {
+    List<String> left = Arrays.asList("a", "b", "d");
+    List<String> right = Arrays.asList("a", "c");
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "b", "c", "d");
+    assertEquals(expected, merged);
+  }
+}
+```
+
 **The full command line (or lines) you ran to trigger the bug**
+
+
 **A description of what to edit to fix the bug**

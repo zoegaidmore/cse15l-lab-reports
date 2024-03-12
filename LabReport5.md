@@ -236,3 +236,6 @@ class ListExamples {
 
 ### Part 2 - Reflection
 
+**In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn't know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn't have to be specifically related to a lab writeup, we just want to hear about cool things you learned!**
+
+Learning vim was super interesting to me because I loved learning about all of the things that we can do to edit a file just from the command line! It was super interesting to me that there were just so many different commands, and especially so many shortcuts. You can delete whole lines with just one command, and search for different things within the file, which you can't do while editing normally. 
